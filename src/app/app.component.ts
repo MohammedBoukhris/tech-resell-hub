@@ -6,8 +6,8 @@ import { RouterOutlet } from '@angular/router';
   standalone: true,
   imports: [RouterOutlet],
   templateUrl: './app.component.html',
-  styleUrl: './app.component.less'
+  styleUrls: ['./app.component.less']
 })
 export class AppComponent {
-  title = 'Dealer Squad management';
+  title = 'Dealer Squad Management';
 }
