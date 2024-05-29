@@ -10,4 +10,8 @@ import { RouterOutlet } from '@angular/router';
 })
 export class AppComponent {
   title = 'Dealer Squad Management';
+
+  constructor() {
+    console.log('AppComponent constructor');
+  }
 }

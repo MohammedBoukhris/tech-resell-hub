@@ -5,8 +5,8 @@ import { SignUpComponent } from './components/sign-up/sign-up.component';
 
 export const appRoutes: Routes = [
   { path: '', component: HomeComponent},
-  { path: 'sign-up', component: HomeComponent },
-  { path: 'sign-in', component: SignUpComponent },
+  { path: 'sign-up', component: SignUpComponent },
+  { path: 'sign-in', component: SignInComponent },
     { path: '**', component: SignInComponent }
 
 ];
